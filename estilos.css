@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(53, 32, 19)
+  }
+  
+  h1 {
+    color:rgb(141, 95, 52)
+    
+  }
+  
+  h3 {
+    color: rgb(172, 93, 28);
+  }
+
+  /* Selectores con referencia a clases */
+ 
+  .skill-list {
+    list-style: none;
+  }
+  .element {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+
+  .cursiva {
+    font-style: italic;
+}
+
+/* Estilos a links */
+  a {
+    color: rgb(1, 1, 160);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: rgb(86, 0, 88); 
+    }
+  
+  /* Estilos a tablas */
+  table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #bebebe;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+  /*Usos de ID para algo especifico*/
+#header {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+
+#contact-info {
+  font-style: italic;
+  color: #888;
+}
